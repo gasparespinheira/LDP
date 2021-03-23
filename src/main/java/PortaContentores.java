@@ -16,7 +16,7 @@ public class PortaContentores extends Navio {
 
     /**
      * criação de um get "NumContentores"
-     * @return
+     * @return noContentores
      */
     public int getNoContentores() {
         return noContentores;
@@ -28,7 +28,5 @@ public class PortaContentores extends Navio {
      */
     public void setNoContentores(int noContentores) {
         this.noContentores = noContentores;
-    }
-    
-    
+    }   
 }

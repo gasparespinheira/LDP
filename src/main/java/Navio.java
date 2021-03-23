@@ -18,7 +18,7 @@ public class Navio {
 
     /**
      * criação de um get de "Matricula"
-     * @return
+     * @return matricula
      */
     public String getMatricula() {
         return matricula;
@@ -26,7 +26,7 @@ public class Navio {
 
     /**
      * criação de um get de "Nome"
-     * @return
+     * @return nome
      */
     public String getNome() {
         return nome;
@@ -34,7 +34,7 @@ public class Navio {
 
     /**
      * criação de um get de "Comprimento"
-     * @return
+     * @return comprimento
      */
     public float getComprimento() {
         return comprimento;

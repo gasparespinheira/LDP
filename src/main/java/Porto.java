@@ -22,7 +22,7 @@ public class Porto {
     /**
      * criação de um get de "Navios"
      *
-     * @return the value of navios
+     * @return navios
      */
     public Navio[] getNavios() {
         return navios;
@@ -31,7 +31,7 @@ public class Porto {
     /**
      * criação de um get de "NumMaxNavios"
      *
-     * @return the value of noMaxNavios
+     * @return noMaxNavios
      */
     public int getNoMaxNavios() {
         return noMaxNavios;
@@ -40,7 +40,7 @@ public class Porto {
     /**
      * verifica se o número máximo de navios foi atingido. Se foi atingido, manda uma mensagem para o sistema "Número máximo de navios (...) atingido!"
      * enquanto o número máximo de navios não for atingido acrescenta um novo navio (nova matrícula)
-     * @param n
+     * @param n objeto de "novoNavio"
      */
     public void novoNavio(Navio n){
         if(ctNavios == noMaxNavios) {
@@ -63,7 +63,7 @@ public class Porto {
     
     /**
      * getter da capacidade total dos navios
-     * @return
+     * @return total
      */
     public float getCapacidadeTotal(){
         float total = 0;
